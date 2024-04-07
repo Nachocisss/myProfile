@@ -1,0 +1,31 @@
+.techLogoSection {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 30px;
+}
+.techLogoRow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+.techLogoContainer {
+  flex: 1;
+  text-align: center;
+}
+.techLogoContainer img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: auto;
+  filter: drop-shadow(5px 5px 10px #000000);
+}
+.techLogoImageAndText {
+  display: flex;
+  flex-direction: column;
+}
+.techLogoText {
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+}

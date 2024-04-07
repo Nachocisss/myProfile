@@ -1,0 +1,34 @@
+.experienceSection {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 780px) {
+  .experienceSection {
+    flex-direction: column;
+  }
+}
+.experienceCard {
+  border-radius: 10px;
+  margin: 16px;
+  flex: 1;
+  background: #161616;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+.experienceText {
+  margin: 40px;
+  padding-left: 40px;
+  border-left: #cda34f solid 4px;
+}
+.experienceText h2 {
+  font-size: 20px;
+  color: #cda34f;
+}
+.experienceText h3 {
+  font-size: 18px;
+}
+.experienceText p {
+  font-size: 14px;
+}

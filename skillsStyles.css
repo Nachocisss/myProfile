@@ -1,0 +1,41 @@
+.skillsSection {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .skillsSection {
+    flex-direction: column;
+  }
+}
+.skillCard {
+  flex: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #ffdf9e, #cda34f) 1;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  background: radial-gradient(circle, #2d2d2d 1%, #161616 100%);
+}
+.skillCardTitle {
+  font-size: 26px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: #cda34f solid 1px;
+}
+.skillCardTextContent {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.skillCardText {
+  font-size: 18px;
+  margin: 4px 20px;
+}

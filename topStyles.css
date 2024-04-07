@@ -1,0 +1,70 @@
+.topContainer {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #cda34f;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .topContainer {
+    flex-direction: column;
+  }
+}
+.topCardText {
+  border-radius: 40px;
+  padding: 40px 0px;
+  flex: 3;
+}
+.topCardText h1 {
+  margin: 8px auto;
+  font-size: 60px;
+}
+.topCardText h2 {
+  margin: 8px auto;
+  font-size: 24px;
+  color: #cda34f;
+}
+.topCardYearTextContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+}
+@media (max-width: 768px) {
+  .topCardYearTextContainer {
+    flex-direction: column;
+  }
+}
+.topCardYearTextNumber {
+  background-image: linear-gradient(to right, #ffdf9e, #cda34f);
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 8px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.topCardYearText {
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+.topCardText a {
+  display: inline-block;
+  background-color: #333;
+  color: #e7e9ea;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid #cda34f;
+  background: radial-gradient(circle, #363636 1%, #161616 100%);
+}
+
+.topCardImage {
+  flex: 1;
+}
+.topCardCircle {
+  border-radius: 200px;
+  border: 4px solid #cda34f;
+  height: 80%;
+}
