@@ -3,15 +3,19 @@
   margin: 0 auto;
   padding-top: 20px;
   border-radius: 30px;
-}
-.techLogoRow {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 24px;
+  flex-wrap: wrap;
 }
+
 .techLogoContainer {
-  flex: 1;
   text-align: center;
+  margin: 8px 0px;
+  width: 25%;
+}
+@media (max-width: 768px) {
+  .techLogoContainer {
+    width: 50%;
+  }
 }
 .techLogoContainer img {
   width: 100px;
