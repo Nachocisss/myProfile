@@ -11,9 +11,9 @@
   }
 }
 .experienceCard {
-  border-radius: 10px;
-  margin: 16px;
   flex: 1;
+  margin: 16px;
+  border-radius: 10px;
   background: #161616;
   box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
@@ -31,4 +31,15 @@
 }
 .experienceText p {
   font-size: 14px;
+}
+.experienceStaskContainer {
+  display: flex;
+  flex-direction: row;
+}
+.experienceStaskContainer img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin: 0px 8px;
+  filter: drop-shadow(5px 5px 10px #000000);
 }
