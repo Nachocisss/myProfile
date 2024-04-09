@@ -21,4 +21,5 @@ body {
   background-clip: text;
   color: transparent;
   background-image: linear-gradient(to right, #ffdf9e, #cda34f);
+  filter: drop-shadow(8px 8px 5px #000000);
 }

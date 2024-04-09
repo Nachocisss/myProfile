@@ -14,6 +14,7 @@
   border-radius: 40px;
   padding: 40px 0px;
   flex: 3;
+  filter: drop-shadow(8px 8px 5px #000000);
 }
 .topCardText h1 {
   margin: 8px auto;
@@ -23,6 +24,10 @@
   margin: 8px auto;
   font-size: 24px;
   color: #cda34f;
+  background-image: linear-gradient(to right, #ffd683, #cda34f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .topCardYearTextContainer {
   display: flex;
@@ -35,10 +40,10 @@
   }
 }
 .topCardYearTextNumber {
-  background-image: linear-gradient(to right, #ffdf9e, #cda34f);
   font-size: 30px;
   font-weight: 600;
   margin-right: 8px;
+  background-image: linear-gradient(to right, #ffdf9e, #cda34f);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

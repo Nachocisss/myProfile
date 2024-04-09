@@ -22,11 +22,11 @@
   height: 100px;
   object-fit: contain;
   margin: auto;
-  filter: drop-shadow(5px 5px 10px #000000);
 }
 .techLogoImageAndText {
   display: flex;
   flex-direction: column;
+  filter: drop-shadow(8px 8px 5px #000000);
 }
 .techLogoText {
   margin: 8px 0;
