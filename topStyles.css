@@ -1,5 +1,5 @@
 .topContainer {
-  width: 87%;
+  width: 80%;
   margin: 0 auto;
   border-bottom: 1px solid #cda34f;
   display: flex;
@@ -12,7 +12,7 @@
 }
 .topCardText {
   border-radius: 40px;
-  padding: 40px 80px;
+  padding: 40px 0px;
   flex: 3;
   filter: drop-shadow(8px 8px 5px #000000);
 }
