@@ -53,16 +53,39 @@
   margin-top: 8px;
 }
 
-.topCardText a {
+.cvDownload {
   display: inline-block;
   background-color: #333;
   color: #e7e9ea;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
-  margin-top: 20px;
   border: 1px solid #cda34f;
   background: radial-gradient(circle, #363636 1%, #161616 100%);
+}
+.topButtonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px;
+}
+.topButtonCv {
+  margin: auto 0px;
+}
+.topButton {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.topButton img {
+  width: 35px;
+  height: 35px;
+  padding: 1px;
+  border-radius: 40px;
+  background-color: white;
 }
 
 .topCardImage {
